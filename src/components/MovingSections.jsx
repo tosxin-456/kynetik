@@ -8,7 +8,7 @@ function MovingSections() {
     <div className="relative">
       {/* Section 1 - Orange */}
       <div className="sticky top-0 z-10">
-        <div className="bg-[#E96A32] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-6 py-7 md:py-10 gap-8">
+        <div className="bg-[#E96A32] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-6 py-7 md:py-10 gap-8 min-h-screen md:min-h-0">
           {/* Left Column: Text */}
           <div className="md:w-1/2 text-white">
             <p className="text-lg mb-2 uppercase">Our Core</p>
@@ -24,8 +24,7 @@ function MovingSections() {
             </p>
           </div>
 
-          {/* Right Column: Image Placeholder */}
-
+          {/* Right Column: Image */}
           <div className="md:w-1/2 flex justify-center">
             <img
               src={petrol}
@@ -38,7 +37,7 @@ function MovingSections() {
 
       {/* Section 2 - Gray */}
       <div className="sticky top-0 z-20">
-        <div className="bg-[#F7F7F7] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-6 py-7 md:py-10 gap-8 ">
+        <div className="bg-[#F7F7F7] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-6 py-7 md:py-10 gap-8 min-h-screen md:min-h-0">
           {/* Left Column: Text */}
           <div className="md:w-1/2 text-[#282828]">
             <p className="text-lg mb-2 uppercase">Our Core</p>
@@ -54,22 +53,20 @@ function MovingSections() {
             </p>
           </div>
 
-          {/* Right Column: Image Placeholder */}
+          {/* Right Column: Image */}
           <div className="md:w-1/2 flex justify-center">
-            <div className="w-full h-[400px] md:h-[600px] rounded-lg bg-gray-400 flex items-center justify-center text-white">
-              <img
-                src={solar}
-                alt="Electric mobility"
-                className="w-full h-[400px] md:h-[600px] rounded-lg object-cover"
-              />
-            </div>
+            <img
+              src={solar}
+              alt="Electric mobility"
+              className="w-full h-[400px] md:h-[600px] rounded-lg object-cover"
+            />
           </div>
         </div>
       </div>
 
       {/* Section 3 - White */}
       <div className="sticky top-0 z-30">
-        <div className="bg-[#FFFFFF] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-6 py-7 md:py-10 gap-8  shadow-lg">
+        <div className="bg-[#FFFFFF] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-6 py-7 md:py-10 gap-8 shadow-lg min-h-screen md:min-h-0">
           {/* Left Column: Text */}
           <div className="md:w-1/2 text-[#282828]">
             <p className="text-lg mb-2 uppercase">Our Core</p>
@@ -83,15 +80,13 @@ function MovingSections() {
             </p>
           </div>
 
-          {/* Right Column: Image Placeholder */}
+          {/* Right Column: Image */}
           <div className="md:w-1/2 flex justify-center">
-            <div className="w-full h-[400px] md:h-[600px] rounded-lg bg-green-500 flex items-center justify-center text-white">
-              <img
-                src={money}
-                alt="Electric mobility"
-                className="w-full h-[400px] md:h-[600px] rounded-lg object-cover"
-              />
-            </div>
+            <img
+              src={money}
+              alt="Electric mobility"
+              className="w-full h-[400px] md:h-[600px] rounded-lg object-cover"
+            />
           </div>
         </div>
       </div>
