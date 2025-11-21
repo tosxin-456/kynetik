@@ -7,6 +7,9 @@ import HeroSection from "./components/Hero";
 import Building from "./components/Building";
 import LetterSection from "./components/Letter";
 import MovingSections from "./components/MovingSections";
+import ZeroSection from "./components/ZeroSection";
+import Footer from "./components/Footer";
+import Future from "./components/Future";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +21,9 @@ function App() {
       <LetterSection />
       <Building />
       <MovingSections />
+      <ZeroSection />
+      <Future />
+      <Footer />
     </>
   );
 }
