@@ -10,14 +10,14 @@ function HeroSection() {
         <img
           src={mobile}
           alt="Hero Mobile"
-          className="absolute inset-0 w-full h-full object-cover md:hidden rounded-lg"
+          className="absolute inset-0 w-full h-full object-cover md:hidden rounded-4xl"
         />
 
         {/* DESKTOP IMAGE */}
         <img
           src={desktop}
           alt="Hero Desktop"
-          className="absolute inset-0 w-full h-full object-cover hidden md:block rounded-lg"
+          className="absolute inset-0 w-full h-full object-cover hidden md:block rounded-4xl"
         />
 
         {/* CENTERED TEXT OVERLAY */}

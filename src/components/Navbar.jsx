@@ -18,13 +18,13 @@ function Navbar() {
 
       {/* Desktop Links */}
       <div className="hidden md:flex flex-1 items-center justify-center gap-10">
-        <div className="bg-[#F1F1F1] rounded-full p-2 px-3.5 cursor-pointer">
+        <div className="bg-[#F1F1F1] text-[12px] rounded-full p-1 px-2 cursor-pointer">
           About
         </div>
       </div>
 
       <div className="hidden md:flex">
-        <div className="bg-[#E96A32] text-white rounded-full p-2 px-3.5 cursor-pointer">
+        <div className="bg-[#E96A32] text-[15px] text-white rounded-full p-2 px-3.5 cursor-pointer">
           Contact Us
         </div>
       </div>

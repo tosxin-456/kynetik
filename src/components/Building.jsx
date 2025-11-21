@@ -54,7 +54,7 @@ const mobile_data = [
 function Building() {
   return (
     <>
-      <div className="mt-16 hidden md:block px-6 md:px-4">
+      <div className="mt-16 mb-16 hidden md:block px-6 md:px-4">
         {/* Section Title */}
         <h2 className="text-sm uppercase font-semibold text-left text-[#E96A32] mb-10">
           Why we're building
@@ -65,7 +65,7 @@ function Building() {
           {desktop_data.map((item) => (
             <div
               key={item.id}
-              className="flex flex-col bg-[#F7F7F7] p-6 rounded-xl w-full  mx-auto space-y-4 shadow-sm"
+              className="flex flex-col bg-[#F7F7F7] p-6 rounded-2xl w-full  mx-auto space-y-4 shadow-sm"
             >
               {/* Header + Icon */}
               <div className="flex items-center justify-between w-full">
@@ -79,12 +79,12 @@ function Building() {
               </div>
 
               {/* Subtext */}
-              <p className="text-gray-600 leading-relaxed">{item.subtext}</p>
+              <p className="text-gray-600 py-10 text-[12px] leading-relaxed">{item.subtext}</p>
             </div>
           ))}
         </div>
       </div>
-      <div className="mt-16 block  md:hidden px-6 md:px-4">
+      <div className="mt-16 block mb-36 md:hidden px-6 md:px-4">
         {/* Section Title */}
         <h2 className="text-sm uppercase font-semibold text-left text-[#232323] mb-10">
           Services
