@@ -72,7 +72,7 @@ export default function Footer() {
         <img
           src={logo}
           alt="Kynetix Logo"
-          className="mx-auto w-[60%] sm:w-[40%] md:w-[25%]"
+          className="mx-auto w-[60%] sm:w-[40%] md:w-[95%]"
         />
         <p className="text-xs mt-2 text-gray-600">
           © 2025 Kynetik Inc. All rights reserved.

@@ -2,7 +2,7 @@ import React from "react";
 
 function Future() {
   return (
-    <div className="bg-[#E96A32] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-6 py-7 md:py-10 gap-8 md:hidden">
+    <div className="bg-[#E96A32] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-6 py-15 md:py-10 gap-8 md:hidden">
       {/* Left Column: Text */}
       <div className="md:w-1/2 text-white flex flex-col items-center">
         <h1 className="text-3xl md:text-4xl text-center font-normal mb-3">
