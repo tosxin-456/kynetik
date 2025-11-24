@@ -2,7 +2,7 @@ import React from "react";
 
 function ZeroSection() {
   return (
-    <div className="relative bg-[#F8F7F5] md:mb-[50px] p-10">
+    <div className="relative   bg-[#F8F7F5] md:mb-[50px] p-10">
       {/* Top line divider */}
       <div
         style={{ backgroundColor: "rgba(2,1,32,0.16)" }}
@@ -28,12 +28,12 @@ function ZeroSection() {
           {/* KPI GRID */}
           <div className="space-y-12">
             {/* Row 1 → 45% + 50% */}
-            <div className="grid grid-cols-2 gap-12">
+            <div className="grid grid-cols-2 gap-10">
               {/* 45% */}
               <div className="flex items-start gap-4">
-                <div className="h-25 bg-[#E96A32] w-[1px]"></div>
+                <div className="h-24 bg-[#E96A32] w-[1px]"></div>
                 <div>
-                  <p className="text-6xl  text-[#020120]">45%</p>
+                  <p className="text-5xl  text-[#020120]">45%</p>
                   <p className="text-[10px] text-[#616161] mt-6 ">
                     Up to 45% higher take-home pay
                   </p>
@@ -42,11 +42,11 @@ function ZeroSection() {
 
               {/* 50% */}
               <div className="flex items-start gap-4">
-                <div className="h-25 bg-[#E96A32] w-[1px]"></div>
+                <div className="h-24 bg-[#E96A32] w-[1px]"></div>
                 <div>
-                  <p className="text-6xl  text-[#020120]">50%</p>
-                  <p className="text-[10px] text-[#616161] mt-6 ">
-                    50% lower powering costs
+                  <p className="text-5xl  text-[#020120]">50%</p>
+                  <p className="text-[10px] text-[#616161] mt-4 ">
+                    50% lower <br /> powering costs
                   </p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ function ZeroSection() {
 
             {/* Row 2 → ZERO */}
             <div className="flex items-start gap-4">
-              <div className="h-25 bg-[#E96A32] w-[1px]"></div>
+              <div className="h-24 bg-[#E96A32] w-[1px]"></div>
               <div>
                 <p className="text-6xl  text-[#020120]">ZERO</p>
                 <p className="text-[10px] text-[#616161] mt-6 ">

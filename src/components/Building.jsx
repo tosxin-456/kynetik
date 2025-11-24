@@ -69,9 +69,9 @@ function Building() {
             >
               {/* Header + Icon */}
               <div className="flex items-center justify-between w-full">
-                <h3 className="text-md font-medium max-w-[80%]">
+                <p className="text-md font-medium max-w-[80%]">
                   {item.header}
-                </h3>
+                </p>
 
                 <div className="h-12 w-12  flex items-center justify-center">
                   <img src={item.icon} alt="icon" className="h-10 w-10" />
@@ -86,7 +86,7 @@ function Building() {
       </div>
       <div className="mt-16 block mb-36 md:hidden px-6 md:px-4">
         {/* Section Title */}
-        <h2 className="text-sm uppercase  text-left text-[#232323] mb-10">
+        <h2 className="text-sm   text-left text-[#232323] mb-10">
           Services
         </h2>
 
@@ -99,9 +99,9 @@ function Building() {
             >
               {/* Header + Icon */}
               <div className="flex items-center justify-between w-full">
-                <h3 className="text-md font-medium max-w-[80%]">
+                <p className="text-md font-medium max-w-[80%]">
                   {item.header}
-                </h3>
+                </p>
 
                 <div className="h-12 w-12  flex items-center justify-center">
                   <img src={item.icon} alt="icon" className="h-10 w-10" />
@@ -109,7 +109,7 @@ function Building() {
               </div>
 
               {/* Subtext */}
-              <p className="text-gray-600 leading-relaxed">{item.subtext}</p>
+              <p className="text-gray-600 mb-7 mt-7 text-[11px] leading-relaxed">{item.subtext}</p>
             </div>
           ))}
         </div>

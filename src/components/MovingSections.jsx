@@ -11,8 +11,8 @@ function MovingSections() {
         <div className="bg-[#E96A32] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-8 py-7 md:py-10 gap-8 min-h-[85vh] md:min-h-0">
           {/* Left Column: Text */}
           <div className="md:w-1/2 text-white">
-            <p className="text-lg mb-2 uppercase">Our Core</p>
-            <p className="text-3xl md:text-5xl  mb-7">
+            <p className="text-lg mb-8 uppercase">Our Core</p>
+            <p className="text-5xl md:text-5xl  mb-7">
               Rebuilding the Backbone of Mobility
             </p>
             <p className="text-base mt-20 md:text-[12px] max-w-[350px] ">
@@ -40,8 +40,8 @@ function MovingSections() {
         <div className="bg-[#F7F7F7] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-8 py-7 md:py-10 gap-8 min-h-[85vh] md:min-h-0">
           {/* Left Column: Text */}
           <div className="md:w-1/2 text-[#282828]">
-            <p className="text-lg mb-2 uppercase">Our Core</p>
-            <p className="text-3xl md:text-5xl  mb-7">
+            <p className="text-lg mb-8 uppercase">Our Core</p>
+            <p className="text-5xl md:text-5xl  mb-7">
               Energy That Never Stops
             </p>
             <p className="text-base mt-20 md:text-[12px] max-w-[350px] ">
@@ -69,8 +69,8 @@ function MovingSections() {
         <div className="bg-[#FFFFFF] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-8 py-7 md:py-10 gap-8  min-h-[85vh] md:min-h-0">
           {/* Left Column: Text */}
           <div className="md:w-1/2 text-[#282828]">
-            <p className="text-lg mb-2 uppercase">Our Core</p>
-            <p className="text-3xl md:text-5xl  mb-7">
+            <p className="text-lg mb-8 uppercase">Our Core</p>
+            <p className="text-5xl md:text-5xl  mb-7">
               More Power. More Profit.
             </p>
             <p className="text-base mt-20 md:text-[12px] max-w-[350px] ">

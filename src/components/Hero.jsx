@@ -23,16 +23,16 @@ function HeroSection() {
       {/* CENTERED TEXT OVERLAY */}
       <div className="relative z-10 flex flex-col items-center justify-center text-center px-6 md:px-10 mt-30 h-full text-white gap-6 pt-20 md:pt-32 pb-20">
 
-        <h1 className="text-3xl font-light md:text-6xl max-w-2xl leading-tight">
+        <p className="text-3xl max-w-[400px] font-light md:text-6xl md:max-w-2xl leading-tight">
           Accelerating Electric Mobility in Africa
-        </h1>
+        </p>
 
-        <p className="text-base md:text-lg max-w-xl">
+        <p className="text-base md:text-lg max-w-[300px] md:max-w-xl">
           We're building the energy backbone that will power Africa's transition
           to clean, reliable mobility.
         </p>
 
-        <button className="bg-white text-black px-10 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors mt-6">
+        <button className="bg-white text-black md:px-10 px-20 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors mt-6">
           Learn More
         </button>
       </div>

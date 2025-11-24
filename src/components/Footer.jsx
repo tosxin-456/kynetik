@@ -15,24 +15,24 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row justify-between items-center sm:items-start text-[12px] w-full gap-10">
           {/* Left Section */}
           <div className="text-sm text-[12px] md:text-base text-left sm:text-left w-full sm:w-1/2 space-y-10">
-            <p className="max-w-[300px] text-[12px] ">
+            <p className="max-w-[300px] md:text-[12px] text-[14px] ">
               Building the energy infrastructure for Africa’s electric mobility
               future.
             </p>
 
             {/* Social Icons */}
-            <div className="flex justify-start sm:justify-start space-x-6 mt-20">
+            <div className="flex justify-start sm:justify-start space-x-6 md:mt-20">
               <a href="#">
-                <img src={facebook} alt="Facebook" className="w-7 h-7" />
+                <img src={facebook} alt="Facebook" className="md:w-7 md:h-7 h-9 w-9" />
               </a>
               <a href="#">
-                <img src={instagram} alt="Instagram" className="w-7 h-7" />
+                <img src={instagram} alt="Instagram" className="md:w-7 md:h-7 h-9 w-9" />
               </a>
               <a href="#">
-                <img src={linkedIN} alt="LinkedIn" className="w-7 h-7" />
+                <img src={linkedIN} alt="LinkedIn" className="md:w-7 md:h-7 h-9 w-9" />
               </a>
               <a href="#">
-                <img src={Xicon} alt="X" className="w-7 h-7" />
+                <img src={Xicon} alt="X" className="md:w-7 md:h-7 h-9 w-9" />
               </a>
             </div>
           </div>
@@ -68,7 +68,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Section */}
-      <div className="w-full mt-40 text-center bg-white pb-10 pt-6">
+      <div className="w-full md:mt-40 text-center bg-white pb-10 pt-6">
         <img
           src={logo}
           alt="Kynetix Logo"

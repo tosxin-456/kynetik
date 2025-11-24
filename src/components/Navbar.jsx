@@ -33,7 +33,7 @@ function Navbar() {
       <div className="md:hidden">
         <button
           onClick={toggleMenu}
-          className="text-black bg-[#F1F1F1] rounded-full p-2 px-3.5 font-medium cursor-pointer"
+          className="text-black border-[1px] border-[#090A0B40] bg-[#F1F1F1] rounded-full p-2 px-3.5 font-medium cursor-pointer"
         >
           {isOpen ? "Close" : "Menu"}
         </button>

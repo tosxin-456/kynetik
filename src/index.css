@@ -1,13 +1,21 @@
-
+/* Import fonts */
 @import url("https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 @import "tailwindcss";
 
-@theme {
---font-general: "General Sans", sans-serif;
+/* Define CSS variables for fonts */
+:root {
+  --font-general: "General Sans", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
 
-  }
- 
-  body {
+/* Set body font (default) */
+body {
   font-family: var(--font-general);
+}
+
+/* Optional: use Inter for headings or special classes */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-inter);
 }
