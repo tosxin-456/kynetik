@@ -28,7 +28,7 @@ function ZeroSection() {
           {/* KPI GRID */}
           <div className="space-y-12">
             {/* Row 1 → 45% + 50% */}
-            <div className="grid grid-cols-2 gap-8">
+            <div className="grid grid-cols-2 md:gap-8 gap-2  ">
               {/* 45% */}
               <div className="flex items-start gap-4">
                 <div className="h-24 bg-[#E96A32] w-[1px]"></div>
@@ -42,7 +42,7 @@ function ZeroSection() {
 
               {/* 50% */}
               <div className="flex items-start gap-4">
-                <div className="h-24 bg-[#E96A32] w-[1px]"></div>
+                <div className="h-24 bg-[#E96A32] w-[1.5px] md:w-[1px]"></div>
                 <div>
                   <p className="text-5xl  text-[#020120]">50%</p>
                   <p className="text-[10px] text-[#616161] mt-4 ">
