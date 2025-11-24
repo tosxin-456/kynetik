@@ -7,13 +7,13 @@ function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="p-4 flex items-center w-[98%] m-auto justify-between relative">
+    <nav className="p-4 flex items-center md:w-[98%] m-auto justify-between relative">
       {/* Logo */}
       <img
         src={logo}
         alt="Logo"
         onClick={toggleMenu}
-        className="cursor-pointer"
+        className="cursor-pointer w-40 "
       />
 
       {/* Desktop Links */}
