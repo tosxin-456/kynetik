@@ -12,7 +12,7 @@ function MovingSections() {
           {/* Left Column: Text */}
           <div className="md:w-1/2 text-white">
             <p className="text-lg mb-8 uppercase">Our Core</p>
-            <p className="text-5xl md:text-5xl  mb-7">
+            <p className="text-5xl md:text-5xl   mb-7">
               Rebuilding the Backbone of Mobility
             </p>
             <p className="text-base mt-20 md:text-[12px] max-w-[350px] ">

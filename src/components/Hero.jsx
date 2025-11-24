@@ -32,7 +32,7 @@ function HeroSection() {
           to clean, reliable mobility.
         </p>
 
-        <button className="bg-white text-black md:px-10 px-20 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors mt-6">
+        <button className="bg-white text-black md:px-10 px-28 py-5 rounded-full font-medium hover:bg-gray-100 transition-colors mt-6">
           Learn More
         </button>
       </div>

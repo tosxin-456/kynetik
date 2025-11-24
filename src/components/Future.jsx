@@ -8,11 +8,13 @@ function Future() {
         {/* Left Column: Text */}
         <div className="md:w-1/2 text-white flex flex-col items-center text-center">
           <h1 className="text-3xl md:text-4xl font-normal mb-3">
-            Move Into the Future With Us
+            Move Into the Future <br /> With Us
           </h1>
           <p className="text-base mt-3  mb-3 md:text-[15px]">
-            Your health journey starts here. Join Sophia and experience
-            healthcare designed for the modern world.
+            Kinetiks gives you the infrastructure, technology, and reliability
+            to stay ahead of the shift. Whether you're a rider, business, or
+            city, we help you move cleaner, earn more, and build a future that
+            actually works.
           </p>
           <button className="mt-6 bg-white text-black px-15 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors">
             Join Us

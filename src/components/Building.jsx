@@ -77,9 +77,8 @@ function Building() {
                   <img src={item.icon} alt="icon" className="h-10 w-10" />
                 </div>
               </div>
-
               {/* Subtext */}
-              <p className="text-gray-600 py-10 text-[12px] leading-relaxed">{item.subtext}</p>
+              <p className="text-gray-600 py-5 text-[12px] leading-relaxed">{item.subtext}</p>
             </div>
           ))}
         </div>

@@ -28,14 +28,14 @@ function ZeroSection() {
           {/* KPI GRID */}
           <div className="space-y-12">
             {/* Row 1 → 45% + 50% */}
-            <div className="grid grid-cols-2 gap-10">
+            <div className="grid grid-cols-2 gap-8">
               {/* 45% */}
               <div className="flex items-start gap-4">
                 <div className="h-24 bg-[#E96A32] w-[1px]"></div>
                 <div>
                   <p className="text-5xl  text-[#020120]">45%</p>
                   <p className="text-[10px] text-[#616161] mt-6 ">
-                    Up to 45% higher take-home pay
+                    Up to 45% higher <br /> take-home pay
                   </p>
                 </div>
               </div>
@@ -46,7 +46,8 @@ function ZeroSection() {
                 <div>
                   <p className="text-5xl  text-[#020120]">50%</p>
                   <p className="text-[10px] text-[#616161] mt-4 ">
-                    50% lower <br /> powering costs
+                    50% lower <br className="md:hidden" />
+                    powering costs
                   </p>
                 </div>
               </div>
@@ -56,9 +57,9 @@ function ZeroSection() {
             <div className="flex items-start gap-4">
               <div className="h-24 bg-[#E96A32] w-[1px]"></div>
               <div>
-                <p className="text-6xl  text-[#020120]">ZERO</p>
-                <p className="text-[10px] text-[#616161] mt-6 ">
-                  Zero emissions from every ride
+                <p className="text-5xl  text-[#020120]">ZERO</p>
+                <p className="text-[10px] text-[#616161] mt-5 ">
+                  Zero emissions <br className="md:hidden" /> from every ride
                 </p>
               </div>
             </div>
