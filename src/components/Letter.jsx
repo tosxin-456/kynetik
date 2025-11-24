@@ -6,7 +6,7 @@ function LetterSection() {
     <>
       <div
         style={{ backgroundColor: "rgba(2,1,32,0.16)" }}
-        className="h-[2px] w-[90%] m-auto mt-20 mb-8"
+        className="h-[1px] w-[90%] m-auto mt-20 mb-8"
       ></div>
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 px-6 md:px-10 max-w-7xl mx-auto">
