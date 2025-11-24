@@ -56,7 +56,7 @@ function Building() {
     <>
       <div className="mt-16 mb-16 hidden md:block px-6 md:px-4">
         {/* Section Title */}
-        <h2 className="text-sm uppercase font-semibold text-left text-[#E96A32] mb-10">
+        <h2 className="text-sm uppercase  text-left text-[#E96A32] mb-10">
           Why we're building
         </h2>
 
@@ -65,7 +65,7 @@ function Building() {
           {desktop_data.map((item) => (
             <div
               key={item.id}
-              className="flex flex-col bg-[#F7F7F7] p-6 rounded-2xl w-full  mx-auto space-y-4 shadow-sm"
+              className="flex flex-col bg-[#F7F7F7] p-3 rounded-2xl w-full  mx-auto space-y-4"
             >
               {/* Header + Icon */}
               <div className="flex items-center justify-between w-full">
@@ -86,7 +86,7 @@ function Building() {
       </div>
       <div className="mt-16 block mb-36 md:hidden px-6 md:px-4">
         {/* Section Title */}
-        <h2 className="text-sm uppercase font-semibold text-left text-[#232323] mb-10">
+        <h2 className="text-sm uppercase  text-left text-[#232323] mb-10">
           Services
         </h2>
 
@@ -95,7 +95,7 @@ function Building() {
           {mobile_data.map((item) => (
             <div
               key={item.id}
-              className="flex flex-col bg-[#F7F7F7] p-6 rounded-xl w-full  mx-auto space-y-4 shadow-sm"
+              className="flex flex-col bg-[#F7F7F7] p-3 rounded-xl w-full  mx-auto space-y-4"
             >
               {/* Header + Icon */}
               <div className="flex items-center justify-between w-full">

@@ -8,14 +8,14 @@ function MovingSections() {
     <div className="relative">
       {/* Section 1 - Orange */}
       <div className="sticky top-0 z-10">
-        <div className="bg-[#E96A32] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-6 py-7 md:py-10 gap-8 min-h-screen md:min-h-0">
+        <div className="bg-[#E96A32] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-8 py-7 md:py-10 gap-8 min-h-screen md:min-h-0">
           {/* Left Column: Text */}
           <div className="md:w-1/2 text-white">
             <p className="text-lg mb-2 uppercase">Our Core</p>
-            <h1 className="text-3xl md:text-4xl font-normal mb-7">
+            <p className="text-3xl md:text-5xl  mb-7">
               Rebuilding the Backbone of Mobility
-            </h1>
-            <p className="text-base mt-20 md:text-[15px]">
+            </p>
+            <p className="text-base mt-20 md:text-[14px]">
               Kynetik is creating the infrastructure that will power Africa's
               transition to clean and reliable mobility. Our ecosystem—battery
               swapping, fast charging, clean energy systems, and purpose-built
@@ -37,14 +37,14 @@ function MovingSections() {
 
       {/* Section 2 - Gray */}
       <div className="sticky top-0 z-20">
-        <div className="bg-[#F7F7F7] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-6 py-7 md:py-10 gap-8 min-h-screen md:min-h-0">
+        <div className="bg-[#F7F7F7] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-8 py-7 md:py-10 gap-8 min-h-screen md:min-h-0">
           {/* Left Column: Text */}
           <div className="md:w-1/2 text-[#282828]">
             <p className="text-lg mb-2 uppercase">Our Core</p>
-            <h1 className="text-3xl md:text-4xl font-normal mb-7">
+            <p className="text-3xl md:text-5xl  mb-7">
               Energy That Never Stops
-            </h1>
-            <p className="text-base mt-20 md:text-[15px]">
+            </p>
+            <p className="text-base mt-20 md:text-[14px]">
               Our network is designed for consistency and scale. Automated
               stations offer instant battery swaps. Manned stations provide
               personal support and coverage in high-demand areas. With
@@ -66,14 +66,14 @@ function MovingSections() {
 
       {/* Section 3 - White */}
       <div className="sticky top-0 z-30">
-        <div className="bg-[#FFFFFF] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-6 py-7 md:py-10 gap-8 shadow-lg min-h-screen md:min-h-0">
+        <div className="bg-[#FFFFFF] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-8 py-7 md:py-10 gap-8  min-h-screen md:min-h-0">
           {/* Left Column: Text */}
           <div className="md:w-1/2 text-[#282828]">
             <p className="text-lg mb-2 uppercase">Our Core</p>
-            <h1 className="text-3xl md:text-4xl font-normal mb-7">
+            <p className="text-3xl md:text-5xl  mb-7">
               More Power. More Profit.
-            </h1>
-            <p className="text-base mt-20 md:text-[15px]">
+            </p>
+            <p className="text-base mt-20 md:text-[14px]">
               Kynetik riders earn up to 50% more than petrol riders thanks to
               lower operating costs and stable electricity pricing. No fuel
               hikes. No unpredictability. Just reliable, affordable power.

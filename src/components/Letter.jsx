@@ -8,9 +8,10 @@ function LetterSection() {
         style={{ backgroundColor: "rgba(2,1,32,0.16)" }}
         className="h-[2px] w-[90%] m-auto mt-20 mb-8"
       ></div>
-      <div className="flex flex-col  md:flex-row items-center justify-center gap-6 md:gap-8 px-6 md:px-10 max-w-7xl mx-auto">
+
+      <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 px-6 md:px-10 max-w-7xl mx-auto">
         {/* Text Section */}
-        <p className="text-[#616161] text-4xl md:text-[27px] text-left md:text-left font-medium leading-tight">
+        <p className="text-[#616161] text-4xl md:text-[30px] text-left md:text-left leading-tight">
           <span className="text-[#232323]">Kynetik</span> delivers the{" "}
           <span className="text-[#232323]">infrastructure</span> required to
           scale <span className="text-[#232323]">electric mobility</span> across
@@ -19,12 +20,14 @@ function LetterSection() {
           <span className="text-[#232323]">cost-efficient transportation.</span>
         </p>
 
-        {/* Image Section */}
-        <img
-          src={letter}
-          alt="Letter Visual"
-          className="h-64 w-64 shrink-0 md:block hidden"
-        />
+        {/* Image Section — pulled closer to text */}
+        <div className="h-56 w-56 shrink-0 md:block bg-black hidden -ml-3">
+          <img
+            src={letter}
+            alt="Letter Visual"
+            className="h-56 w-56 shrink-0 md:block hidden"
+          />
+        </div>
       </div>
     </>
   );

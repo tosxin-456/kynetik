@@ -2,18 +2,18 @@ import React from "react";
 
 function ZeroSection() {
   return (
-    <div className="relative bg-[#F8F7F5] md:mb-[500px] p-10">
+    <div className="relative bg-[#F8F7F5] md:mb-[50px] p-10">
       {/* Top line divider */}
       <div
         style={{ backgroundColor: "rgba(2,1,32,0.16)" }}
-        className="h-[2px] w-full  mb-8"
+        className="h-[1px] w-full  mb-8"
       ></div>
 
       {/* Main 2-column layout */}
       <div className="grid md:grid-cols-2 gap-20 items-start">
         {/* LEFT: Heading */}
-        <h2 className="text-sm upperc6se  text-[#020120]">
-          Built for the Riders Who Move Nations
+        <h2 className="text-[10px] uppercase font-[4-mt-6 ] text-[#020120]">
+          Built for the Riders <br /> Who Move Nations
         </h2>
 
         {/* RIGHT: Description + KPIs */}
@@ -31,10 +31,10 @@ function ZeroSection() {
             <div className="grid grid-cols-2 gap-12">
               {/* 45% */}
               <div className="flex items-start gap-4">
-                <div className="h-20 bg-[#E96A32] w-1"></div>
+                <div className="h-25 bg-[#E96A32] w-[1px]"></div>
                 <div>
                   <p className="text-6xl  text-[#020120]">45%</p>
-                  <p className="text-sm text-[#616161] mt-1">
+                  <p className="text-[10px] text-[#616161] mt-6 ">
                     Up to 45% higher take-home pay
                   </p>
                 </div>
@@ -42,10 +42,10 @@ function ZeroSection() {
 
               {/* 50% */}
               <div className="flex items-start gap-4">
-                <div className="h-20 bg-[#E96A32] w-1"></div>
+                <div className="h-25 bg-[#E96A32] w-[1px]"></div>
                 <div>
                   <p className="text-6xl  text-[#020120]">50%</p>
-                  <p className="text-sm text-[#616161] mt-1">
+                  <p className="text-[10px] text-[#616161] mt-6 ">
                     50% lower powering costs
                   </p>
                 </div>
@@ -54,10 +54,10 @@ function ZeroSection() {
 
             {/* Row 2 → ZERO */}
             <div className="flex items-start gap-4">
-              <div className="h-20 bg-[#E96A32] w-1"></div>
+              <div className="h-25 bg-[#E96A32] w-[1px]"></div>
               <div>
                 <p className="text-6xl  text-[#020120]">ZERO</p>
-                <p className="text-sm text-[#616161] mt-1">
+                <p className="text-[10px] text-[#616161] mt-6 ">
                   Zero emissions from every ride
                 </p>
               </div>

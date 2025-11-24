@@ -7,7 +7,7 @@ function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="p-4 flex items-center justify-between relative">
+    <nav className="p-4 flex items-center w-[98%] m-auto justify-between relative">
       {/* Logo */}
       <img
         src={logo}
