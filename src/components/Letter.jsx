@@ -21,7 +21,7 @@ function LetterSection() {
         </p>
 
         {/* Image Section — pulled closer to text */}
-        <div className="h-56 w-56 shrink-0 md:block bg-black hidden -ml-3">
+        <div className="h-56 w-56 shrink-0 md:block  hidden -ml-3">
           <img
             src={letter}
             alt="Letter Visual"
