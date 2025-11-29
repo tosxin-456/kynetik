@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/logo.svg";
+import logo from "../assets/kynetik.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
