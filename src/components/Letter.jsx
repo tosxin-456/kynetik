@@ -45,7 +45,7 @@ function LetterSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.15 }}
-          className="h-56 w-56 shrink-0 md:block hidden -ml-3"
+          className="h-72 w-72 shrink-0 md:block hidden -ml-3"
         >
           <img
             src={letter}
