@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // ← Required for navigation
 import logo from "../assets/kynetik.png";
 
 function Navbar() {
@@ -9,24 +10,27 @@ function Navbar() {
   return (
     <nav className="p-4 flex items-center md:w-[98%] m-auto justify-between relative">
       {/* Logo */}
-      <img
-        src={logo}
-        alt="Logo"
-        onClick={toggleMenu}
-        className="cursor-pointer w-40 "
-      />
+      <Link to="/">
+        <img src={logo} alt="Logo" className="cursor-pointer w-40" />
+      </Link>
 
       {/* Desktop Links */}
       <div className="hidden md:flex flex-1 items-center justify-center gap-10">
-        <div className="bg-[#F1F1F1] text-[12px] rounded-full p-1 px-2 cursor-pointer">
+        <Link
+          to="/about"
+          className="bg-[#F1F1F1] text-[12px] rounded-full p-1 px-2 cursor-pointer"
+        >
           About
-        </div>
+        </Link>
       </div>
 
       <div className="hidden md:flex">
-        <div className="bg-[#E96A32] text-[15px] text-white rounded-full p-2 px-3.5 cursor-pointer">
+        <Link
+          to="/contact"
+          className="bg-[#E96A32] text-[15px] text-white rounded-full p-2 px-3.5 cursor-pointer"
+        >
           Contact Us
-        </div>
+        </Link>
       </div>
 
       {/* Mobile Menu Button */}
@@ -42,10 +46,21 @@ function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="absolute top-16 left-0 w-full bg-gray-200 flex flex-col items-center space-y-2 p-4 z-50 md:hidden">
-          <div className="text-black font-medium cursor-pointer">About</div>
-          <div className="text-black font-medium cursor-pointer">
+          <Link
+            to="/about"
+            onClick={() => setIsOpen(false)}
+            className="text-black font-medium cursor-pointer"
+          >
+            About
+          </Link>
+
+          <Link
+            to="/contact"
+            onClick={() => setIsOpen(false)}
+            className="text-black font-medium cursor-pointer"
+          >
             Contact Us
-          </div>
+          </Link>
         </div>
       )}
     </nav>

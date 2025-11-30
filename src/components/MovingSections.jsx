@@ -1,14 +1,27 @@
 import React from "react";
+import { motion } from "framer-motion";
 import petrol from "../assets/petrol.svg";
 import solar from "../assets/solar.svg";
 import money from "../assets/moneyy.svg";
 
 function MovingSections() {
+  const fadeUp = {
+    hidden: { opacity: 0, y: 40 },
+    visible: { opacity: 1, y: 0 }
+  };
+
   return (
     <div className="relative">
       {/* Section 1 - Orange */}
-      <div className="sticky top-0 z-10">
-        <div className="bg-[#E96A32] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-8 py-7 md:py-10 gap-8 min-h-[85vh] md:min-h-0">
+      <div className="md:sticky md:top-0 md:z-10">
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.6 }}
+          className="bg-[#E96A32] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-8 py-7 md:py-10 gap-8 min-h-[85vh] md:min-h-0"
+        >
           {/* Left Column: Text */}
           <div className="md:w-1/2 text-white">
             <p className="text-lg mb-8 uppercase">Our Core</p>
@@ -32,12 +45,19 @@ function MovingSections() {
               className="w-full h-[300px] md:h-[400px] rounded-lg object-cover"
             />
           </div>
-        </div>
+        </motion.div>
       </div>
 
       {/* Section 2 - Gray */}
-      <div className="sticky top-0 z-20">
-        <div className="bg-[#F7F7F7] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-8 py-7 md:py-10 gap-8 min-h-[85vh] md:min-h-0">
+      <div className="md:sticky md:top-0 md:z-20">
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.6, delay: 0.15 }}
+          className="bg-[#F7F7F7] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-8 py-7 md:py-10 gap-8 min-h-[85vh] md:min-h-0"
+        >
           {/* Left Column: Text */}
           <div className="md:w-1/2 text-[#282828]">
             <p className="text-lg mb-8 uppercase">Our Core</p>
@@ -61,12 +81,19 @@ function MovingSections() {
               className="w-full h-[300px] md:h-[400px] rounded-lg object-cover"
             />
           </div>
-        </div>
+        </motion.div>
       </div>
 
       {/* Section 3 - White */}
-      <div className="sticky top-0 z-30">
-        <div className="bg-[#FFFFFF] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-8 py-7 md:py-10 gap-8  min-h-[85vh] md:min-h-0">
+      <div className="md:sticky md:top-0 md:z-30">
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.6, delay: 0.25 }}
+          className="bg-[#FFFFFF] flex flex-col md:flex-row items-center md:items-center m-5 rounded-4xl px-8 py-7 md:py-10 gap-8  min-h-[85vh] md:min-h-0"
+        >
           {/* Left Column: Text */}
           <div className="md:w-1/2 text-[#282828]">
             <p className="text-lg mb-8 uppercase">Our Core</p>
@@ -88,11 +115,8 @@ function MovingSections() {
               className="w-full h-[300px] md:h-[400px] rounded-lg object-cover"
             />
           </div>
-        </div>
+        </motion.div>
       </div>
-
-      {/* Spacer to allow last section to be visible */}
-      {/* <div className="h-[85vh]"></div> */}
     </div>
   );
 }

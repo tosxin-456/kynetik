@@ -8,6 +8,16 @@
 :root {
   --font-general: "General Sans", sans-serif;
   --font-inter: "Inter", sans-serif;
+  --font-parabole: "Parabole", sans-serif;
+}
+
+/* Parabole font-face (single file) */
+@font-face {
+  font-family: "Parabole";
+  src: url("./fonts/Parabole.woff2") format("woff2");
+  font-weight: normal; /* use normal for all weights */
+  font-style: normal;
+  font-display: swap;
 }
 
 /* Set body font (default) */
@@ -15,7 +25,12 @@ body {
   font-family: var(--font-general);
 }
 
-/* Optional: use Inter for headings or special classes */
+/* Optional: use Inter for headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-inter);
+}
+
+/* Optional: use Parabole for special text */
+.parabole-text {
+  font-family: var(--font-parabole);
 }
