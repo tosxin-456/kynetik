@@ -15,8 +15,7 @@ export default function BuiltForTheFuture() {
       <motion.div
         variants={fadeUp}
         initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
+        animate="visible" // <- animate instead of whileInView
         transition={{ duration: 0.6, delay: 0.25 }}
         className="bg-[#F1EDE9] rounded-4xl flex flex-col md:flex-row items-start justify-start m-0 px-0 py-0 min-h-[85vh] md:min-h-screen"
       >

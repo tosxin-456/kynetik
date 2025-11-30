@@ -112,13 +112,13 @@ function Building() {
       <div className="mt-16 block mb-36 md:hidden px-6 md:px-4">
         {/* Section Title */}
         <motion.h2
-          className="text-sm text-left text-[#232323] mb-10"
+          className="text-sm text-left text-[#E96A32] mb-10"
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          Services
+          Why we're building
         </motion.h2>
 
         {/* Grid Items */}

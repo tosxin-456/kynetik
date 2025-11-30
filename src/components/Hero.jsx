@@ -9,8 +9,7 @@ function HeroSection() {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.98 }}
-      whileInView={{ opacity: 1, scale: 1 }}
-      viewport={{ once: true }}
+      animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="relative w-[95%] m-auto mt-5 min-h-[80vh] rounded-4xl overflow-hidden"
     >
