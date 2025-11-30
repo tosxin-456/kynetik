@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import mobile from "../assets/background/background-mobile.png";
 import desktop from "../assets/background/background-desktop.png";
+import LetterModal from "./LetterModal";
 
 function HeroSection() {
+  const [open, setOpen] = useState(false);
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.98 }}
@@ -61,6 +63,7 @@ function HeroSection() {
 
         {/* BUTTON */}
         <motion.button
+          onClick={() => setOpen(true)}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -70,6 +73,7 @@ function HeroSection() {
           Learn More
         </motion.button>
       </div>
+      <LetterModal isOpen={open} onClose={() => setOpen(false)} />
     </motion.div>
   );
 }
